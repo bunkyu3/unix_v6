@@ -51,7 +51,7 @@ struct user{
 #define	ENOEXEC	8
 #define	EBADF	9
 #define ECHILD	10
-#define	EAGAIN	11
+#define	EAGAIN	11		// forkシステムコールで、proc[]に空きエントリが見つからなかった
 #define	ENOMEM	12
 #define	EACCES	13
 #define	ENOTBLK	15
